@@ -13,14 +13,15 @@
                 </div>
                 <div class="col-md-6">
                     <h4 class="list-group-item-heading"> List group heading </h4>
-                    <p class="list-group-item-text"> Eu eum corpora torquatos, ne postea constituto mea, quo tale lorem facer no. Ut sed odio appetere partiendo, quo meliore salutandi ex. Vix an sanctus vivendo, sed vocibus accumsan petentium ea. 
-                        Sed integre saperet at, no nec debet erant, quo dico incorrupte comprehensam ut. Et minimum consulatu ius, an dolores iracundia est, oportere vituperata interpretaris sea an. Sed id error quando indoctum, mel suas saperet at.                         
+                    <p class="list-group-item-text"> 3 bedroom house, 2 bathrooms,1 dining room.                         
                     </p>
                 </div>
                 <div class="col-md-3 text-center">
+                    <h3 class="text-center">3000RMB</h3>
                     
-                    <button type="button" class="btn btn-primary btn-lg btn-block">Edit</button>
-                    <button type="button" class="btn btn-danger btn-lg btn-block">Delete</button>
+                    <input class="btn btn-primary btn-lg btn-block" type="submit" value="Edit">
+                    <input class="btn btn-danger btn-lg btn-block" type="submit" value="Delete">
+                    
                     
                 </div>
           </a>  
@@ -31,8 +32,8 @@
 </div>
 
 
-    <div class="col-sm-4">
-        <div class="adding">
+    <div class="col-sm-4 adding">
+        <div class="">
             <h1>Adding property</h1>
          <form id="form" method="POST" action="scripts/admin.add_house.php" type="multipart/form-data">
                             <div class="form-group">
