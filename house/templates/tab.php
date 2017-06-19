@@ -5,6 +5,8 @@
                       <li class="active"><a href="#Adding" data-toggle="tab">Adding</a></li>
                       <li><a href="#Editing" data-toggle="tab">Editing</a></li>
                       <li><a href="#Delete" data-toggle="tab">Delete</a></li>
+                      <li><a href="#Appointment" data-toggle="tab">Appointment</a></li>
+                      <li><a href="#Delete" data-toggle="tab">Delete</a></li>
                     </ul>
         <!--For adding a new house-->
                     <div class="tab-content">
@@ -113,6 +115,23 @@
                         </div>
                         </div>
                         
+                        <div class="tab-pane fade" id="Appointment">
+                            <div class="container">
+                                <div class="row">
+                                    <div class="col-sm-6 col-md-3">
+                                        <div class="thumbnail">
+                                            <img src="img/House1.jpg" alt="house">
+                                            <div class="caption">
+
+                                                <h3>759 000 RMB</h3>
+                                                <p>2 bedroom apartment, 1 birthroom, double garage</p>
+                                                <p><a href="#" class="btn btn-danger" role="button">Delete</a> </p>
+                                              </div>
+                                            </div>
+                                       </div>
+                            </div>
+                        </div>
+                        </div>
                     </div>
                  </div>
           </div>
