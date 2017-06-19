@@ -7,7 +7,7 @@
                         <li><a href="index.php">Home</a></li>
                         <li><a href="#">Gallery</a></li>
                         <li><a href="about.php">About Us</a></li>
-                        <li><a href="#">Contact Us</a></li>
+                        <li><a href="contactus.php">Contact Us</a></li>
                         <li><a data-scroll href="#login">Login/Signup</a></li>
                     </ul>
                 </div>
