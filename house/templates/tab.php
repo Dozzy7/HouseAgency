@@ -17,15 +17,10 @@
                         <a href="#"><img src="img/add.png" alt="Add picture"></a>
                             <div class="caption">
 
-                         <!-- I added This --> 
-                         
-                         <!-- I added This -->      
-
                         <form id="form" method="POST" action="scripts/admin.add_house.php" type="multipart/form-data">
                             <div class="form-group">
                                 <input id="btn_upload" class="form-control" type="file" placeholder="Image" name="image" required>
                             </div>
-                        <!-- I added this -->
                             <div class="form-group">
                                 <input class="form-control" type="text" placeholder="Price" name="price" required>
                             </div>
@@ -35,7 +30,6 @@
                             <div class="form-group">
                                 <input class="form-control" type="text" placeholder="listing" name="listing" required>
                             </div>
-                        <!-- ends here -->
                             <div class="form-group">
                                 <input class="form-control" type="text" placeholder="Description" name="description" required>
                             </div>
