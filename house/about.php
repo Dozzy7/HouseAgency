@@ -12,19 +12,20 @@ require 'includes/db.connection.php';
       <!---------------- Header ---------------->
     <?php include "templates/header.php";?> 
 
+    <!----------------  backgroundimage ---------------->
+    <?php include 'templates/backgroundimage.php';?>
+
 
     <!----------------  Body ---------------->
     <section id="about" class="text-center">
         <h2>  We’re the UK’s largest property portal.  </h2>
-    </section>
     <article>
         Our aim is to empower the Chinas’s decisions around property. 
         Our sophisticated, yet simple, property search platform 
         makes it easy for home hunters to find their ‘happy’.<br>
         Raydines plc floated on the London Stock Exchange on 15 March 2006.
     </article>
-
-
+ </section>
 
 
     <!---------------- Footer ---------------->

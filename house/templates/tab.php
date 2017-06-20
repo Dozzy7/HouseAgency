@@ -1,23 +1,43 @@
 <section id="admin_tab">
-          <div class="container">
-                <div class="col-sm-offset-3 col-sm-9">
-                    <ul class="nav nav-tabs">
-                      <li class="active"><a href="#Adding" data-toggle="tab">Adding</a></li>
-                      <li><a href="#Editing" data-toggle="tab">Editing</a></li>
-                      <li><a href="#Delete" data-toggle="tab">Delete</a></li>
-                    </ul>
+    <div class="container">
+          <div class="row">        
         <!--For adding a new house-->
-                    <div class="tab-content">
-                        <div class="list-unstyled tab-pane fade in active" id="Adding">
-                            <div class="col-sm-6 col-md-4">
-                    <div class="thumbnail">
-                        
-                        <a href="#"><img src="img/add.png" alt="Add picture"></a>
-                            <div class="caption">
+                    
+<div class="col-sm-7">
+        <h1>Editing/ Deleting Property</h1>
+              <a href="#" class="list-group-item">
+                <div class="media col-md-3">
+                    <figure class="pull-left">
+                        <img class="media-object img-rounded img-responsive" src="http://placehold.it/350x250" alt="placehold.it/350x250" >
+                    </figure>
+                </div>
+                <div class="col-md-6">
+                    <h4 class="list-group-item-heading"> List group heading </h4>
+                    <p class="list-group-item-text"> 3 bedroom house, 2 bathrooms,1 dining room.                         
+                    </p>
+                </div>
+                <div class="col-md-3 text-center">
+                    <h3 class="text-center">3000RMB</h3>
+                    
+                    <input class="btn btn-primary btn-lg btn-block" type="submit" value="Edit">
+                    <input class="btn btn-danger btn-lg btn-block" type="submit" value="Delete">
+                    
+                    
+                </div>
+          </a>  
+    </div> 
 
-                        <form id="form" method="POST" action="scripts/admin.add_house.php" type="multipart/form-data">
+<div class=col-sm-1>
+    
+</div>
+
+
+    <div class="col-sm-4 adding">
+        <div class="">
+            <h1>Adding property</h1>
+         <form id="form" method="POST" action="scripts/admin.add_house.php" type="multipart/form-data">
                             <div class="form-group">
-                                <input id="btn_upload" class="form-control" type="file" placeholder="Image" name="image" required>
+                                <input id="btn_upload" type="file"  name="image" required>
                             </div>
                             <div class="form-group">
                                 <input class="form-control" type="text" placeholder="Price" name="price" required>
@@ -43,71 +63,14 @@
                                 <input class="btn btn-default" type="submit" value="Confirm">
                             </div>
 
-                        </form>
+                </form>
+        </div>
+        
+        
+    </div>
 
-                            </div>
-                        </div>
-                   </div>
-                        </div>
-            <!--For editing a house-->
-                        <div class="tab-pane fade" id="Editing">
-                            <div class="container">
-                            <div class="row">
 
-                             <div class="col-sm-6 col-md-3">
-                    <div class="thumbnail">
-                        
-                        <a href="#"><img src="img/add.png" alt="Add picture"></a>
-                            <div class="caption">
 
-                        <form id="form" method="POST" action="../scripts/admin.edit_house.php" enctype="multipart/form-data">
-
-                            <div class="form-group">
-                                <input class="form-control" type="text" placeholder="Price" name="price" required>
-                            </div>
-                            <div class="form-group">
-                                <input class="form-control" type="text" placeholder="Description" name="name" required>
-                            </div>
-                            <div class="form-group">
-                                <input class="form-control" type="text" placeholder="Number of rooms" name="name" required>
-                            </div>
-                            
-                            <div class="form-group">
-                                <input class="form-control" type="password" placeholder="City/Town" name="city" required>
-                            </div>
-
-                            <div class="form-group text-center">
-                                <input class="btn btn-default" type="submit" value="Confirm">
-                            </div>
-
-                        </form>
-
-                            </div>
-                        </div>
-                   </div>
-
-                            </div>
-                            </div>
-                        </div>
-                        <div class="tab-pane fade" id="Delete">
-                            <div class="container">
-                                <div class="row">
-                                    <div class="col-sm-6 col-md-3">
-                                        <div class="thumbnail">
-                                            <img src="img/House1.jpg" alt="house">
-                                            <div class="caption">
-
-                                                <h3>759 000 RMB</h3>
-                                                <p>2 bedroom apartment, 1 birthroom, double garage</p>
-                                                <p><a href="#" class="btn btn-danger" role="button">Delete</a> </p>
-                                              </div>
-                                            </div>
-                                       </div>
-                            </div>
-                        </div>
-                        </div>
-                        
-                    </div>
-                 </div>
-          </div>
-        </section>
+        </div>
+    </div>
+</section>

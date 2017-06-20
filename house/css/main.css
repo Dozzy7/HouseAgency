@@ -217,6 +217,20 @@ section#slider img{
     padding-top: 100px;
 }
 
+a.list-group-item {
+    height:auto;
+    min-height:220px;
+}
+a.list-group-item.active small {
+    color:#fff;
+}
+.stars {
+    margin:20px auto 1px;    
+}
+
+.adding{
+    background-color: #b5afaf;
+}
 
 #imageContainer{
   margin: 0 auto;
