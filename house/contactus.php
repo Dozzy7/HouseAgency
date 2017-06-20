@@ -18,7 +18,14 @@ require 'includes/db.connection.php';
      <section>
          <div class="container">
              <div class="row">
-                 <
+                 <div class="col-sm-3">
+                 <img src="slider1" alt="">
+                 <p>Raydine</p>
+                 <p>Computer Science 2013</p>
+                 <p>15931879212 or raydine@yahoo.com</p>
+
+
+                 </div>
              </div>
          </div>
      </section>
