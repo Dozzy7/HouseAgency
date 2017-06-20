@@ -40,6 +40,8 @@
             </form>
 <?php
 $file = $_FILES['image']['tmp_name'];
+
+
      ?>       
             
 
