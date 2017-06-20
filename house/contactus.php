@@ -18,18 +18,18 @@ require 'includes/db.connection.php';
      <section>
          <div class="container">
              <div class="row">
-                 <div class="col-sm-3">
-                 <img src="img/slider1.jpg" alt="">
+                 <div class="col-sm-5">
+                 <img src="img/me.jpg" alt="profile picture">
                  <p>Raydine</p>
                  <p>Computer Science 2013</p>
                  <p>15931879212 or raydine@yahoo.com</p>
                  </div>
 
-                 <div class="col-sm-9">
-                     <h3>How HotPads Started</h3></br></br>
+                 <div class="col-sm-7">
+                     <h3>How Raydine Housing Agency </h3></br></br>
                      
-                        <p>HotPads started in 2005 in the Dupont Circle neighborhood of Washington DC.</br>
-                        Three college friends - Matt, Douglas, and John - were trying to find a place</br>
+                        <p>Raydine was made in 2013 in Jinzhou, China. Three college friends - Matt,</br>
+                         Douglas, and John - were trying to find a place</br>
                         to live but had little luck. Frustrated, they pooled their collective</br>
                         resources and built a unique rentals marketplace with the first ever</br>
                             map-based search.</p>
