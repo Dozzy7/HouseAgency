@@ -20,7 +20,7 @@ require 'includes/db.connection.php';
             <div class="item active">
                     <div id="imageContainer1" class="text-center">
                         <h2> Raydine Housing Agency</h2>
-                        <h3>Not you everyday hpusing Agency</h3>
+                        <h3>Not you everyday housing Agency</h3>
                         <h4>We not only help you get the next home but we also help your find Office Space and Rental of property.</h4>
                         <div class="col-sm-6"><button id="s1" class="btn btn-primary" data-target="#signupModal" data-toggle="modal">Sign Up</button></div>
                         <div class="col-sm-6"><button id="s0" class="btn btn-primary" data-target="#loginModal" data-toggle="modal">Login</button></div>
@@ -197,9 +197,7 @@ require 'includes/db.connection.php';
     <!---------------- Footer ---------------->
     <?php include 'templates/footer.php';?>
 
-
-
-        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+        <!-- <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script> -->
         <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.11.2.min.js"><\/script>')</script>
         <script src="js/main.js"></script>
         <script src="js/bootstrap.min.js"></script>
