@@ -26,28 +26,28 @@ require 'includes/db.connection.php';
                  </div>
 
                  <div class="col-sm-9">
-                     <h3>How HotPads Started</h3>
+                     <h3>How HotPads Started</h3></br></br>
                      
-                        <p>HotPads started in 2005 in the Dupont Circle neighborhood of Washington DC.
-                        Three college friends - Matt, Douglas, and John - were trying to find a place
-                        to live but had little luck. Frustrated, they pooled their collective
-                        resources and built a unique rentals marketplace with the first ever
+                        <p>HotPads started in 2005 in the Dupont Circle neighborhood of Washington DC.</br>
+                        Three college friends - Matt, Douglas, and John - were trying to find a place</br>
+                        to live but had little luck. Frustrated, they pooled their collective</br>
+                        resources and built a unique rentals marketplace with the first ever</br>
                             map-based search.</p>
                         
-                       <p> The HotPads team moved to San Francisco in 2011 was acquired
-                        by Zillow Group in 2012. We are currently located in the sunny
-                        Financial District, based in the Zillow Group San Francisco offices. </p>
+                       <p> The HotPads team moved to San Francisco in 2011 was acquired</br>
+                        by Zillow Group in 2012. We are currently located in the sunny</br>
+                        Financial District, based in the Zillow Group San Francisco offices. </p></br></br>
                         
-                       <h3> Who Is HotPads?</h3>
+                       <h3> Who Is HotPads?</h3></br></br>
                         
-                        <p>At HotPads, we believe you should love where you live.
-                        We also know that finding that perfect apartment can be difficult
-                        and stressful.</p>
+                        <p>At HotPads, we believe you should love where you live.</br>
+                        We also know that finding that perfect apartment can be difficult</br>
+                        and stressful.</p></br>
                         
-                        <p>HotPads eases the pain of looking for your next home by
-                        helping your make smarter decisions about where to live. 
-                        We help people navigate the rental market, and keep up with</p>
-   fast-moving inventory.
+                        <p>HotPads eases the pain of looking for your next home by</br>
+                        helping your make smarter decisions about where to live. </br>
+                        We help people navigate the rental market, and keep up with</br>
+                        fast-moving inventory.</p>
                  </div>
              </div>
          </div>
