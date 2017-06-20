@@ -35,7 +35,13 @@
     <div class="col-sm-4 adding">
         <div class="">
             <h1>Adding property</h1>
+            <iframe src=""></iframe>
+            <form id="" method="POST" action="scripts/admin.add_house.php" type="multipart/form-data">
+                
+            </form>
+
          <form id="form" method="POST" action="scripts/admin.add_house.php" type="multipart/form-data">
+
                             <div class="form-group">
                                 <input id="btn_upload" type="text"  name="image" required>
                             </div>
