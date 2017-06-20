@@ -3,9 +3,9 @@
             <div class="container">
                 <div class="navbar-collapse collapse">
                     <ul class="nav nav-justified">
-                        <li><img width="90" src="img/logo.png"></li>
+                        <li><a href="index.php"><img width="90" src="img/logo.png"></a></li>
                         <li><a href="index.php">Home</a></li>
-                        <li><a href="#">Gallery</a></li>
+                        <li><a href="gallery.php">Gallery</a></li>
                         <li><a href="about.php">About Us</a></li>
                         <li><a href="contactus.php">Contact Us</a></li>
                         <li><a data-scroll href="admin.php">Admin</a></li>

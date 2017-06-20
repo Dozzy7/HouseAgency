@@ -10,7 +10,7 @@ require 'includes/db.connection.php';
 <body>
 
       <!---------------- Header ---------------->
-    <?php include "templates/header.php";?> 
+    <?php include "templates/indexheader.php";?> 
 
 
     <!----------------  slider ---------------->
