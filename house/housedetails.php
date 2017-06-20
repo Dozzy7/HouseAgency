@@ -30,17 +30,31 @@ require 'includes/db.connection.php';
                         $query = "SELECT * FROM houses WHERE houseID = '$id'";
                         $result = mysqli_query($conn,$query);
                         $row = mysqli_fetch_assoc($result);
-                        $row = mysqli_fetch_assoc($result)){
                         ?>
-                            <div class="thumbnail">
-                                <img src="img/House4.jpg" alt="house">
-                            </div>
-                            <?php 
+                        <div class="thumbnail">
+                            <img src="img/House4.jpg" alt="house">
+                        </div>
+                        <?php 
                         }
                         ?>
                     </div>
-                    <div class="col-sm-6 col-md-3">
-                        <h1>House Details</h1>
+                    <div class="col-sm-6 col-md-3">                       
+                        <table class="table table-hover">
+                            <thead>
+                                <tr>
+                                    <th>Description</th>
+                                    <th>Price</th>
+                                    <th>Street</th>
+                                    <th>City</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td></td>
+                                </tr>
+                            </tbody>
+                        </table>
+                        
                     </div>
                 </div>
             </div>
