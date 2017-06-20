@@ -1,5 +1,5 @@
 <header>
-        <nav class="navbar navbar-default navbar-fixed-top">
+        <nav class="navbar navbar-default">
             <div class="container">
                 <div class="navbar-collapse collapse">
                     <ul class="nav nav-justified">
