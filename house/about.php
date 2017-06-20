@@ -17,10 +17,15 @@ require 'includes/db.connection.php';
 
 
     <!----------------  Body ---------------->
+    
+
     <section id="about" class="text-center">
+        
         <div class="col-sm-6 imageC">
             <h2>  We are Africas largest property portal.  </h2>
         </div>
+
+
         <div class="col-sm-6">
             
     <article><br><br>
@@ -43,6 +48,11 @@ require 'includes/db.connection.php';
         
  </section>
 
+ <section id="" class="">
+     <div>
+         <h1>test</h1>
+     </div>
+ </section>
 
     <!---------------- Footer ---------------->
     <?php include 'templates/footer.php';?>
