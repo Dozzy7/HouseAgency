@@ -37,7 +37,7 @@
             <h1>Adding property</h1>
          <form id="form" method="POST" action="scripts/admin.add_house.php" type="multipart/form-data">
                             <div class="form-group">
-                                <input id="btn_upload" type="file"  name="image" required>
+                                <input id="btn_upload" type="text"  name="image" required>
                             </div>
                             <div class="form-group">
                                 <input class="form-control" type="text" placeholder="Price" name="price" required>
