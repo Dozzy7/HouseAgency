@@ -27,6 +27,8 @@
          $description = ($_POST['description']);
          $price = ($_POST['price']);
          $rooms = ($_POST['rooms']); 
+         $street = ($_POST['street']);
+         $city = ($_POST['city']); 
          $listing = ($_POST['listing']); 
       }
 
