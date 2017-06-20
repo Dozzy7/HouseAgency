@@ -146,9 +146,7 @@ require 'includes/db.connection.php';
         <div class="container">
             <div class="row">
                 
-                <?php
-        include 'scripts/session.check.php'; 
-        $userID = $_SESSION['login_user']; echo $userID?>
+    
     </h1>
     <?php
             $query = "SELECT * FROM houses";
