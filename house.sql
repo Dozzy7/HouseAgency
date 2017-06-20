@@ -1,7 +1,7 @@
 /*
 Navicat MySQL Data Transfer
 
-Source Server         : ADMIN
+Source Server         : APP
 Source Server Version : 50714
 Source Host           : localhost:3306
 Source Database       : house
@@ -10,7 +10,7 @@ Target Server Type    : MYSQL
 Target Server Version : 50714
 File Encoding         : 65001
 
-Date: 2017-06-20 07:26:13
+Date: 2017-06-20 12:05:30
 */
 
 SET FOREIGN_KEY_CHECKS=0;
@@ -55,7 +55,7 @@ CREATE TABLE `appoinments` (
 DROP TABLE IF EXISTS `houses`;
 CREATE TABLE `houses` (
   `houseID` int(11) NOT NULL AUTO_INCREMENT,
-  `image` varchar(11) NOT NULL,
+  `image` varchar(50) NOT NULL,
   `description` varchar(255) DEFAULT NULL,
   `price` double NOT NULL,
   `rooms` int(11) NOT NULL,
@@ -63,11 +63,14 @@ CREATE TABLE `houses` (
   `street` varchar(50) DEFAULT NULL,
   `city` varchar(50) DEFAULT NULL,
   PRIMARY KEY (`houseID`)
-) ENGINE=MyISAM DEFAULT CHARSET=latin1;
+) ENGINE=MyISAM AUTO_INCREMENT=4 DEFAULT CHARSET=latin1;
 
 -- ----------------------------
 -- Records of houses
 -- ----------------------------
+INSERT INTO `houses` VALUES ('1', 'a1', 'Nice House', '1200', '4', 'For Sale', 'pinghe', 'Jin');
+INSERT INTO `houses` VALUES ('2', 'a2', 'Another nice house', '1200', '4', 'For Rent', 'pinghe', 'Jin');
+INSERT INTO `houses` VALUES ('3', 'a3', 'House', '1200', '4', 'For Sale', 'pinghe', 'jhdkjhksjhdj');
 
 -- ----------------------------
 -- Table structure for users
@@ -82,11 +85,12 @@ CREATE TABLE `users` (
   `upassword` char(128) NOT NULL,
   `email` varchar(50) NOT NULL,
   PRIMARY KEY (`userID`)
-) ENGINE=MyISAM DEFAULT CHARSET=latin1;
+) ENGINE=MyISAM AUTO_INCREMENT=2 DEFAULT CHARSET=latin1;
 
 -- ----------------------------
 -- Records of users
 -- ----------------------------
+INSERT INTO `users` VALUES ('1', 'pea', null, null, null, '12345', 'pea@yahoo.com');
 
 -- ----------------------------
 -- Table structure for users_favorites
