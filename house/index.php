@@ -145,50 +145,35 @@ require 'includes/db.connection.php';
      <section id="advert" class="advert">
         <div class="container">
             <div class="row">
-                <div class="col-sm-6 col-md-3">
-                    <div class="thumbnail">
-                        <img src="img/House1.jpg" alt="house">
-                        <div class="caption">
-
-                            <h3>759 000 RMB</h3>
-                            <p>2 bedroom apartment, 1 birthroom, double garage</p>
-                            <p><a href="#" class="btn btn-primary" role="button">Button</a> <a href="#" class="btn btn-default" role="button">Button</a></p>
-                          </div>
-                        </div>
-                   </div>
-
-                <div class="col-sm-6 col-md-3">
-                    <div class="thumbnail">
-                        <img src="img/House2.jpg" alt="house">
-                        <div class="caption">
-                            <h3>759 000 RMB</h3>
-                            <p>2 bedroom apartment, 1 birthroom, double garage</p>
-                            <p><a href="#" class="btn btn-primary" role="button">Button</a> <a href="#" class="btn btn-default" role="button">Button</a></p>
-                          </div>
-                        </div>
-                   </div>
-
-                <div class="col-sm-6 col-md-3">
-                    <div class="thumbnail">
-                        <img src="img/House3.jpg" alt="house">
-                        <div class="caption">
-                            <h3>759 000 RMB</h3>
-                            <p>2 bedroom apartment, 1 birthroom, double garage</p>
-                            <p><a href="#" class="btn btn-primary" role="button">Button</a> <a href="#" class="btn btn-default" role="button">Button</a></p>
-                          </div>
-                        </div>
-                   </div>
-
-                <div class="col-sm-6 col-md-3">
-                    <div class="thumbnail">
-                        <img src="img/House4.jpg" alt="house">
-                        <div class="caption">
-                            <h3>759 000 RMB</h3>
-                            <p>2 bedroom apartment, 1 birthroom, double garage</p>
-                            <p><a href="#" class="btn btn-primary" role="button">Button</a> <a href="#" class="btn btn-default" role="button">Button</a></p>
-                          </div>
-                        </div>
-                   </div>
+                
+                <?php
+        include 'scripts/session.check.php'; 
+        $userID = $_SESSION['login_user']; echo $userID?>
+    </h1>
+    <?php
+            $query = "SELECT * FROM houses";
+            $result = mysqli_query($conn,$query);
+            $row = mysqli_fetch_assoc($result);
+            while($row = mysqli_fetch_assoc($result)){
+            ?>
+        <div class="col-sm-6 col-md-3">
+            <div class="thumbnail">
+                <img src="img/House4.jpg" alt="house">
+                <div class="caption">
+                    <h3><?php echo $row['price'] ?></h3>
+                    <p><?php echo $row['description'] ?></p>
+                    <p> 
+                    <form>
+                       <input type="submit" name="" value="Like"> 
+                    </form> 
+                    </p>
+                </div>
+            </div>
+        </div>
+        </div>
+        <?php 
+            }
+        ?>
             </div>
         </div>
     </section>
