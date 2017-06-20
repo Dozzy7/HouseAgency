@@ -1,3 +1,7 @@
+<?php
+ob_start(); 
+require 'includes/db.connection.php';
+?>
 <!doctype html>
 <html class="no-js" lang="">
     <?php include 'templates/head.php';?>
