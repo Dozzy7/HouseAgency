@@ -116,6 +116,15 @@ require 'includes/db.connection.php';
                             <div class="form-group">
                                 <input class="form-control" placeholder="Email" type="email" id="userEmail" name="userEmail" required="">
                             </div>
+
+                            <div class="form-group">
+                                <label for="sel1">Select list:</label>
+                                <select class="form-control" id="sel1">
+                                    <option>Agent</option>
+                                    <option>Buyer</option>
+                                </select>
+                                </div>
+
                             <div class="form-group">
                                 <input class="form-control" placeholder="Password" type="password" id="inputPasword" required="">
                             </div>

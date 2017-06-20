@@ -68,7 +68,7 @@ body > section{
     box-shadow: none;
     background-color: #31a637;
     border: none;
-    height: 1px;
+    min-height: 92px;
     padding-top: 20px;
 }
 
