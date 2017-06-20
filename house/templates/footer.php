@@ -1,12 +1,11 @@
 <footer>
-	<div class="container">
+	<div class"container">
 		<ul>
 			<li><a href="#">Gallary</a></li>
 			<li><a href="#">About Us</a></li>
 			<li><a href="#">Contact Us</a></li>
-			<li><a href="#"></a></li>
 		</ul>
-		<p class="pull-left">Done By Raydine</p>
+		
+	<p class="pull-left">Done By Raydine</p>
 	</div>
-
 </footer>
