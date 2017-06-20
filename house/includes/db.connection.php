@@ -1,13 +1,7 @@
 <?php
-$servername = "localhost";
-$username = "app";
-$password = "1234";
-$db = "house";
-
-// Create connection
-$conn = mysqli_connect($servername, $username, $password,$db);
-
-// Check connection
-if ($conn->connect_error) {
-    die("Connection failed: " . $conn->connect_error);
-}
+   define('DB_SERVER', 'localhost');
+   define('DB_USERNAME', 'app');
+   define('DB_PASSWORD', '1234');
+   define('DB_DATABASE', 'house');
+   $conn = mysqli_connect(DB_SERVER,DB_USERNAME,DB_PASSWORD,DB_DATABASE);
+?>
