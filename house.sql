@@ -10,7 +10,7 @@ Target Server Type    : MYSQL
 Target Server Version : 50714
 File Encoding         : 65001
 
-Date: 2017-06-20 12:05:30
+Date: 2017-06-20 13:36:39
 */
 
 SET FOREIGN_KEY_CHECKS=0;
@@ -70,7 +70,7 @@ CREATE TABLE `houses` (
 -- ----------------------------
 INSERT INTO `houses` VALUES ('1', 'a1', 'Nice House', '1200', '4', 'For Sale', 'pinghe', 'Jin');
 INSERT INTO `houses` VALUES ('2', 'a2', 'Another nice house', '1200', '4', 'For Rent', 'pinghe', 'Jin');
-INSERT INTO `houses` VALUES ('3', 'a3', 'House', '1200', '4', 'For Sale', 'pinghe', 'jhdkjhksjhdj');
+INSERT INTO `houses` VALUES ('3', 'a3', 'House', '1200', '4', 'For Sale', 'pinghe', 'Jin');
 
 -- ----------------------------
 -- Table structure for users
@@ -79,9 +79,10 @@ DROP TABLE IF EXISTS `users`;
 CREATE TABLE `users` (
   `userID` int(11) NOT NULL AUTO_INCREMENT,
   `username` varchar(20) NOT NULL,
+  `user_type` enum('Buyer','Agent') NOT NULL,
   `f_name` varchar(50) DEFAULT NULL,
   `l_name` varchar(50) DEFAULT NULL,
-  `contact` int(11) DEFAULT NULL,
+  `contact` int(11) NOT NULL,
   `upassword` char(128) NOT NULL,
   `email` varchar(50) NOT NULL,
   PRIMARY KEY (`userID`)
@@ -90,7 +91,7 @@ CREATE TABLE `users` (
 -- ----------------------------
 -- Records of users
 -- ----------------------------
-INSERT INTO `users` VALUES ('1', 'pea', null, null, null, '12345', 'pea@yahoo.com');
+INSERT INTO `users` VALUES ('1', 'pea', 'Buyer', 'Pea', 'Ngesheya', '188104167103', '12345', 'pea@yahoo.com');
 
 -- ----------------------------
 -- Table structure for users_favorites
