@@ -11,7 +11,7 @@
 
                 <div class="modal-body">
 
-                    <form action="scripts/login.php" method="post">
+                    <form action="scripts/user.login.php" method="post">
                         <fieldset>
 
                             <div class="form-group">
