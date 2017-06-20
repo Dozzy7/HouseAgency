@@ -35,11 +35,13 @@
     <div class="col-sm-4 adding">
         <div class="">
             <h1>Adding property</h1>
-            <iframe name="iframe"></iframe>
             <form id="" method="POST" action="scripts/admin.add_house.php" type="multipart/form-data" target="iframe">
-                <input type="file" name="file" value="file">
-                <input type="submit" name="submit" id="submit" value="Upload Image">
+                <input type="file" name="image"> <input type="submit" value="Upload Image">
             </form>
+<?php
+$file = $_FILES['image']['tmp_name'];
+     ?>       
+            
 
          <form id="form" method="POST" action="scripts/admin.add_house.php" type="multipart/form-data">
 
