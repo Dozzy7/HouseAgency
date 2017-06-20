@@ -1,6 +1,5 @@
 <?php
    require '../includes/db.connection.php';
-
    $image;
    $description;
    $price;
@@ -9,11 +8,7 @@
    $street;
    $city;
 
-   if($_SERVER["REQUEST_METHOD"] == "POST") {
-
-      $query = "SELECT * FROM houses WHERE hid = ";
-      
-      // best practice to make sure if the data has slashes they are included
+// best practice to make sure if the data has slashes they are included
       if(! get_magic_quotes_gpc()){
          $image = addslashes($_POST['image']);
          $description = addslashes($_POST['description']);
@@ -32,13 +27,11 @@
          $listing = ($_POST['listing']); 
       }
 
-      $sql = "INSERT INTO houses VALUES(null,'$image','$description','$price','$rooms','$listing','$street','$city' ,NOW())";
+      $sql = "INSERT INTO `houses`(`houseID`, `image`, `description`, `price`, `rooms`, `listing`, `street`, `city`) VALUES (null,'$image','$description','$price','$rooms','$lsiting','$listing','$city')";
       $retval = mysqli_query($conn,$sql);
       if(! $retval){
           die('Could not enter data: ' . mysql_error());
       }else{
-       header("location:../admin_view_houses.php");
-      }
-     
-   }
+       header("location:../admin.php");
+      }     
 ?>
