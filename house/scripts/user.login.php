@@ -24,7 +24,7 @@
          isset($_SESSION['login_user']);
          $_SESSION['login_user'] = $username;
 
-         header("location: ../home.php");
+         header("location: ../gallery.php");
       }else {
          $error = "Your Login Name or Password is invalid";
       }
