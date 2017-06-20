@@ -50,7 +50,7 @@ require 'includes/db.connection.php';
 
  <section id="" class="">
      <div>
-         <h1>test</h1>
+         <h1>testing</h1>
      </div>
  </section>
 
