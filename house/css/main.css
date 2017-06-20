@@ -252,7 +252,32 @@ a.list-group-item.active small {
 #btn_upload{
     background-image: url(img/add.png);
 }
+/*===========For About us===========*/
+#about{
+    padding-top: 0px;
+    padding-bottom: 130px;
+}
 
+.imageC{
+    margin: 0 auto;
+    height: 360px;
+    min-width: 400px;
+    background-image: url(../img/img1.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: center center; 
+    -webkit-background-size:cover;
+    -moz-background-size:cover;
+    -o-background-size:cover;
+    color: #ffffff;
+}
+
+.imageC h2{
+    padding-top: 130px;
+    font-weight: bolder;
+}
+
+/*===========For Footer===========*/
 
 
 /* ==========================================================================
